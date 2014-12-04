@@ -1,5 +1,5 @@
 /**
- * Created by smhawkins on 12/4/14.
+ * Created by smhawkins
  */
 angular.module('project', ['ngRoute', 'firebase'])
 
