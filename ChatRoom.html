@@ -1,0 +1,22 @@
+<div id="chat-holder">
+    <div id="inside-chat-holder">
+        <div ng-repeat="m in messages">
+            {{m.username}}:
+            {{m.usertext}}
+            <br><br>
+
+        </div>
+    </div>
+    <form class="row textbox-holder" name="Chat">
+        <div class="input-group">
+            <input type="text" class="form-control" name="username" ng-model="m.username" placeholder="Your Name" />
+
+            <input type="text" class="form-control" name="usertext" ng-model="m.usertext" placeholder="Start Chatting.." />
+
+                <span class="input-group-btn">
+                    <button ng-click="save()" class="btn btn-primary">Send</button>
+                </span>
+        </div>
+
+    </form>
+</div>

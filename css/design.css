@@ -1,0 +1,30 @@
+body
+{
+    font-family: "Baskerville Old Face", serif;
+    font-size: 14px;
+    background: #00BFFF;
+}
+
+#chat-holder{
+    background: url('../images/background2.png') ;
+    height: 600px;
+    width: 300px;
+    margin: auto;
+    position:relative;
+    font-size: 18px;
+
+
+}
+
+#inside-chat-holder{
+    overflow:hidden;
+    height: 530px;
+    padding:10px 20px;
+}
+
+.textbox-holder{
+    position:absolute;
+    bottom: 5px;
+    margin: 5px;
+    width: 286px;
+}
